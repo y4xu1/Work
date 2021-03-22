@@ -1,0 +1,21 @@
+section {
+    background: pink;
+    color: black;
+}
+ul li {
+    background: aquamarine;
+    color: black;
+}
+footer ul p {
+    color: rgb(2, 2, 66);
+}
+p {
+    font-size: 8px;
+    font-family: Arial;
+}
+h1 {
+    font-weight: bolder
+}
+nav {
+    text-align: center;
+}
