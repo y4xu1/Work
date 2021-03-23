@@ -1,21 +1,54 @@
-section {
-    background: pink;
-    color: black;
+*{
+    font-family: arial;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin: auto;
+    padding: 5px;
+}
+body {
+    background: linear-gradient(30deg, white,sienna, royalblue, indianred, white);
+}
+#ptitulo {
+    font-family: "Castellar";
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+}
+nav a {
+    font-family: sans-serif;
+    color: blue;
+    font-weight: bolder;
+}
+#p2 {
+    font-size: 30px;
 }
 ul li {
-    background: aquamarine;
     color: black;
 }
 footer ul p {
-    color: rgb(2, 2, 66);
+    border: 2px;
+    margin: 15px auto;
 }
-p {
-    font-size: 8px;
-    font-family: Arial;
+h1, h2, h3, h4, h5 {
+    font-family: 'Castellar';
+    font-weight: bolder;
+    color: black;
 }
-h1 {
-    font-weight: bolder
+h2, h4 {
+    font-size: 45px;
 }
-nav {
-    text-align: center;
+#precio {
+    font-size: 30px;
+}
+#potatcio {
+    border: 1px solid black;
+    width: 75px;
+}
+#promo {
+    width: 1480px;
+
+}
+img {  
+    width: 370px;
+    border: 1px solid black;
 }
