@@ -8,6 +8,13 @@
 header nav [herf] {
     font-style: italic;
 }
+nav:active {
+    color: rgba(137, 43, 226, 0.562);
+}
+nav:checked {
+    text-decoration-line: underline;
+    color: rgba(137, 43, 226, 0.562);
+}
 .mw-headline {
     position: relative;
     float: right;
@@ -47,6 +54,10 @@ h2, h4 {
 }
 #precio {
     font-size: 30px;
+}
+#potatcio:hover {
+    border: 2px solid black;
+    background: rgba(134, 129, 129, 0.884);
 }
 #potatcio {
     border: 1px solid black;
