@@ -9,9 +9,9 @@ header nav [herf] {
     font-style: italic;
 }
 .mw-headline {
-    display: block;
     position: relative;
     float: right;
+    direction: ltr;
 }
 body {
     background: linear-gradient(30deg, white,sienna, royalblue, indianred, white);
